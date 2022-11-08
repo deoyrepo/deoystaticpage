@@ -9,7 +9,6 @@ body {
             font-family: 'Indie Flower', cursive;
             font-size: 5vw;
             transition: background 2s ease;
-            //background: #4cf;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -18,7 +17,6 @@ body {
             background-image: url("source/img/fondolaptop.jpg");
             background-position: center;
             background-repeat: no-repeat;
-            //color: #fff;
 }
 
 .wrapper {
@@ -27,7 +25,7 @@ body {
 }
 
 footer {
-            font-size: 1vw;
+            font-size: 2vw;
             position: absolute;
             bottom: 0;
             width: 100%;
