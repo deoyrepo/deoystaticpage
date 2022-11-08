@@ -3,8 +3,10 @@ const https = require('https');
 const unplashApi = 'https://source.unsplash.com/1600x900?laptop';
 
 const quotes = [
-    'Market Place                      ',
-    'Services & Consulting             ',
+    'Services & Consulting',
+    ' \n',
+    'Market Place',
+    '\n',
     'Business Process Automation'
 ];
 
@@ -24,7 +26,7 @@ module.exports = async function (context, req) {
 
   const image = await getImage();
   //const text = quotes[Math.floor(Math.random() * quotes.length)];
-  const text = quotes[0] + quotes[1] + quotes[2];
+  const text = quotes[0] + quotes[1] + quotes[2] + quotes[3] + quotes[4];
   
 
   context.res = {
