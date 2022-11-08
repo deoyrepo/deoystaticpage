@@ -12,8 +12,7 @@ const quotes = [
  // 'You deserve the best.',
  // 'Keep going, you\'re doing well.',
  // 'Stay positive; stay hopeful'
- //  'Market Place - Services & Consulting - Business Process Automation'
-     ' '
+    'Market Place <br> Services & Consulting <br> Business Process Automation'
 ];
 
 async function getImage() {
