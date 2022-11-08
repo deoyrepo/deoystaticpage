@@ -1,6 +1,6 @@
 const https = require('https');
 
-const unplashApi = 'https://source.unsplash.com/1600x900?technology';
+const unplashApi = 'https://source.unsplash.com/1600x900?laptop';
 const quotes = [
  // 'Wherever you go, no matter what the weather, always bring your own sunshine.',
  // 'You\’re awesome.',
@@ -12,7 +12,7 @@ const quotes = [
  // 'You deserve the best.',
  // 'Keep going, you\'re doing well.',
  // 'Stay positive; stay hopeful'
-   'Market Place - Services & Consulting - Business Process Automation'
+   'Market Place \n Services & Consulting \n Business Process Automation'
 ];
 
 async function getImage() {
