@@ -6,22 +6,24 @@ html {
 
 body {
             margin: 0;
-            font-family: 'Exo 2', sans-serif;
-            font-size: 6vw;
+			background-image: url("source/img/fondolaptop.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            
+}
+
+.wrapper {
+            margin: 0;
+            //margin-bottom: 40px;
+			font-family: 'Exo 2', sans-serif;
+            font-size: 5vw;
             transition: background 2s ease;
             display: flex;
             align-items: center;
             justify-content: center;
             text-shadow: 0 0 10px #000;
             text-align: center;
-            background-image: url("source/img/fondolaptop.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-}
-
-.wrapper {
-            margin: 0;
-            //margin-bottom: 40px;
+            
 }
 
 footer {
