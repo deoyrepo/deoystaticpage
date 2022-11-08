@@ -4,9 +4,9 @@ const unplashApi = 'https://source.unsplash.com/1600x900?laptop';
 
 const quotes = [
     'Services & Consulting',
-    ' \n',
+    '                            \n',
     'Market Place',
-    '\n',
+    '                            \n',
     'Business Process Automation'
 ];
 
