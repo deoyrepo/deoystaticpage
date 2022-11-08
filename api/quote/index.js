@@ -12,7 +12,7 @@ const quotes = [
  // 'You deserve the best.',
  // 'Keep going, you\'re doing well.',
  // 'Stay positive; stay hopeful'
-   'DEOY MARKET - Servicios DEOY - BPA '
+   'Market Place - Services & Consulting - Business Process Automation'
 ];
 
 async function getImage() {
