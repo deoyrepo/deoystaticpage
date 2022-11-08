@@ -34,3 +34,10 @@ footer {
             height: 40px;
             color: #fff;
 }
+
+table {
+		/* Para centrar usamos "auto" en la alineación horizontal */
+    margin: 0 auto;
+		/*Lo siguiente es para los bordes*/
+    border-collapse: collapse;
+}
