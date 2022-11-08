@@ -30,6 +30,11 @@ body {
   animation: scaleout 2s infinite ease-in-out;
 }
 
+.footer {
+  height: 250px;
+  background-color:# 4cf;
+}
+
 @keyframes scaleout {
   0% {
     transform: scale(0);
