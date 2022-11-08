@@ -12,7 +12,9 @@ const quotes = [
  // 'You deserve the best.',
  // 'Keep going, you\'re doing well.',
  // 'Stay positive; stay hopeful'
-    'Market Place <br> Services & Consulting <br> Business Process Automation'
+    'Market Place',
+    'Services & Consulting',
+    'Business Process Automation'
 ];
 
 async function getImage() {
@@ -30,7 +32,8 @@ module.exports = async function (context, req) {
   context.log('JavaScript HTTP trigger function processed a request.');
 
   const image = await getImage();
-  const text = quotes[Math.floor(Math.random() * quotes.length)];
+  //const text = quotes[Math.floor(Math.random() * quotes.length)];
+  const text = quotes[1] + quotes[2] + quotes[3];
   
 
   context.res = {
