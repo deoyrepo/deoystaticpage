@@ -3,8 +3,8 @@ const https = require('https');
 const unplashApi = 'https://source.unsplash.com/1600x900?laptop';
 
 const quotes = [
-    'Market Place \n',
-    'Services & Consulting \n',
+    'Market Place                      ',
+    'Services & Consulting             ',
     'Business Process Automation'
 ];
 
