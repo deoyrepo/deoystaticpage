@@ -12,6 +12,11 @@ body {
   justify-content: center;
 }
 
+.footer {
+  height: 250px;
+  background-color:# 4cf;
+}
+
 #quote {
   font-family: 'Indie Flower', cursive;
   // font-family: "Lucida Console", "Courier New", monospace;
@@ -28,11 +33,6 @@ body {
   background-color: #fff;
   border-radius: 100%;  
   animation: scaleout 2s infinite ease-in-out;
-}
-
-.footer {
-  height: 250px;
-  background-color:# 4cf;
 }
 
 @keyframes scaleout {
