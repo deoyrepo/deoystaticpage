@@ -9,6 +9,7 @@ body {
 			background-image: url("source/img/fondolaptop.jpg");
             background-position: center;
             background-repeat: no-repeat;
+			font-family: 'Exo 2', sans-serif;
 			transition: background 2s ease;
             display: flex;
             align-items: center;
@@ -21,11 +22,8 @@ body {
 
 .wrapper {
             margin: 0;
-            //margin-bottom: 40px;
-			font-family: 'Exo 2', sans-serif;
             font-size: 5vw;
 			opacity: 1;
-            
 }
 
 footer {
