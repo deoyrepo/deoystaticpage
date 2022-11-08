@@ -13,7 +13,8 @@ body {
 }
 
 #quote {
-  font-family: 'Indie Flower', cursive;
+  // font-family: 'Indie Flower', cursive;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 6vw;
   padding: 3vw;
   color: #fff;
