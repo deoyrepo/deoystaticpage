@@ -7,7 +7,7 @@ html {
 body {
             margin: 0;
             font-family: 'Exo 2', sans-serif;
-            font-size: 5vw;
+            //font-size: 5vw;
             transition: background 2s ease;
             display: flex;
             align-items: center;
@@ -25,7 +25,7 @@ body {
 }
 
 footer {
-            font-size: 2vw;
+            //font-size: 2vw;
             position: absolute;
             bottom: 0;
             width: 100%;
