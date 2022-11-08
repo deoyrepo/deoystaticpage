@@ -32,3 +32,8 @@ footer {
             //height: 40px;
             color: #fff;
 }
+
+.table {
+		margin: 0 auto;
+		border-collapse: collapse;
+}
