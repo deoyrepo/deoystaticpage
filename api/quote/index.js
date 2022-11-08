@@ -1,6 +1,8 @@
 const https = require('https');
 
-const unplashApi = 'https://source.unsplash.com/1600x900?laptop';
+//const unplashApi = 'https://source.unsplash.com/1600x900?laptop';
+const unplashApi = 'https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wfHx8fHx8MTY2NzkyNjIyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600';
+
 const quotes = [
     'Market Place -',
     'Services & Consulting -',
@@ -23,7 +25,7 @@ module.exports = async function (context, req) {
 
   const image = await getImage();
   //const text = quotes[Math.floor(Math.random() * quotes.length)];
-  const text = quotes[0] + quotes[1] + quotes[2];
+  const text = quotes[0] + <br/> + quotes[1] + <br/> + quotes[2];
   
 
   context.res = {
